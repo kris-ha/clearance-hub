@@ -3,108 +3,164 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Clearance-Hub</title>
+<title>Clearance-Hub | Malta Customs & Trade Compliance</title>
 
 <style>
-body {
-    font-family: Arial, sans-serif;
-    background: #f5f7fa;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fa;
+    color:#333;
 }
 
-.container {
-    max-width: 800px;
-    margin: 80px auto;
-    padding: 40px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+.header{
+    background:#0b3d91;
+    color:white;
+    padding:50px 20px;
+    text-align:center;
 }
 
-h1 {
-    color: #003366;
-    margin-bottom: 10px;
+.header h1{
+    margin:0;
+    font-size:42px;
 }
 
-h2 {
-    color: #555;
-    font-weight: normal;
-    margin-bottom: 30px;
+.header p{
+    font-size:20px;
+    margin-top:10px;
 }
 
-p {
-    color: #444;
-    line-height: 1.6;
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
 }
 
-.button {
-    display: inline-block;
-    margin: 10px;
-    padding: 14px 24px;
-    text-decoration: none;
-    border-radius: 6px;
-    color: white;
-    font-weight: bold;
+.intro{
+    text-align:center;
+    margin-bottom:40px;
+    line-height:1.7;
 }
 
-.linkedin {
-    background: #0077b5;
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-bottom:40px;
 }
 
-.terms {
-    background: #444;
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
 }
 
-.email {
-    background: #00875a;
+.card h3{
+    margin-top:0;
+    color:#0b3d91;
 }
 
-.footer {
-    margin-top: 40px;
-    color: #777;
-    font-size: 14px;
+.buttons{
+    text-align:center;
+    margin-top:30px;
+}
+
+.button{
+    display:inline-block;
+    margin:10px;
+    padding:14px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.linkedin{
+    background:#0077b5;
+}
+
+.terms{
+    background:#444;
+}
+
+.email{
+    background:#1a9b5f;
+}
+
+.footer{
+    text-align:center;
+    padding:30px;
+    color:#666;
+    font-size:14px;
 }
 </style>
-
 </head>
 
 <body>
 
-<div class="container">
-
-<h1>Clearance-Hub</h1>
-
-<h2>Malta Customs & Trade Compliance Consultant</h2>
-
-<p>
-Providing customs clearance support, tariff classification,
-EU TARIC guidance, import & export procedures,
-trade compliance assistance and Maltese customs systems advisory services.
-</p>
-
-<a class="button linkedin"
-href="https://www.linkedin.com/in/christian-grech-160677136"
-target="_blank">
-LinkedIn Profile
-</a>
-
-<a class="button terms"
-href="https://terms.clearance-hub.com"
-target="_blank">
-Terms & Conditions
-</a>
-
-<a class="button email"
-href="mailto:chris@clearance-hub.com">
-Contact Me
-</a>
-
-<div class="footer">
-© Clearance-Hub | Malta
+<div class="header">
+    <h1>Clearance-Hub</h1>
+    <p>Malta Customs & Trade Compliance Consultant</p>
 </div>
 
+<div class="container">
+
+    <div class="intro">
+        Providing professional customs clearance support, EU TARIC classification guidance,
+        import and export procedures, transit documentation, trade compliance assistance,
+        and Maltese customs systems advisory services.
+    </div>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Customs Clearance</h3>
+            <p>Import and export customs declarations for commercial shipments entering or leaving Malta.</p>
+        </div>
+
+        <div class="card">
+            <h3>EU TARIC Classification</h3>
+            <p>Guidance on commodity classification, duty rates, and customs requirements.</p>
+        </div>
+
+        <div class="card">
+            <h3>Transit Documents</h3>
+            <p>T1 transit procedures, customs movements, and related documentation support.</p>
+        </div>
+
+        <div class="card">
+            <h3>Trade Compliance</h3>
+            <p>Assistance with customs procedures, import controls, export requirements, and compliance matters.</p>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+
+        <a class="button linkedin"
+           href="https://www.linkedin.com/in/christian-grech-160677136"
+           target="_blank">
+           LinkedIn Profile
+        </a>
+
+        <a class="button terms"
+           href="https://terms.clearance-hub.com"
+           target="_blank">
+           Terms & Conditions
+        </a>
+
+        <a class="button email"
+           href="mailto:chris@clearance-hub.com">
+           Contact Me
+        </a>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    © Clearance-Hub | Malta Customs & Trade Compliance Consultant
 </div>
 
 </body>
