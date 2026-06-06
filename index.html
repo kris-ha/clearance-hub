@@ -19,38 +19,22 @@ body{
 }
 
 .hero{
-    position:relative;
     min-height:78vh;
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.38),
+            rgba(0,0,0,0.38)
+        ),
+        url('background.jpg');
+    background-size:cover;
+    background-position:center;
     display:flex;
     align-items:center;
     padding:40px 8%;
     color:white;
-    overflow:hidden;
-}
-
-.hero-video{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    z-index:0;
-}
-
-.hero-overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.38);
-    z-index:1;
 }
 
 .hero-content{
-    position:relative;
-    z-index:2;
     max-width:680px;
     animation:fadeUp 1s ease forwards;
 }
@@ -181,7 +165,7 @@ body{
         transform:translateY(0);
     }
 }
-    
+
 @media(max-width:700px){
     .hero{
         min-height:85vh;
@@ -209,13 +193,8 @@ body{
 <body>
 
 <section class="hero">
-    <video class="hero-video" autoplay muted loop playsinline>
-        <source src="hero-video.mov" type="video/quicktime">
-    </video>
-    <div class="hero-overlay"></div>
-    
     <div class="hero-content">
-        <div class="brand">CLEARANCE-HUB</div
+        <div class="brand">CLEARANCE-HUB</div>
 
         <h1>INDEPENDENT CUSTOMS & TRADE COMPLIANCE ADVISORY</h1>
 
