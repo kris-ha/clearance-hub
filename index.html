@@ -28,6 +28,7 @@ body{
         url('background.jpg');
     background-size:cover;
     background-position:center;
+    animation:slowZoom 45s ease-in-out infinite alternate;
     display:flex;
     align-items:center;
     padding:40px 8%;
@@ -165,7 +166,18 @@ body{
         transform:translateY(0);
     }
 }
-
+    
+@keyframes slowZoom{
+    from{
+        background-size:100%;
+        background-position:center center;
+    }
+    to{
+        background-size:110%;
+        background-position:center top;
+    }
+}
+    
 @media(max-width:700px){
     .hero{
         min-height:85vh;
